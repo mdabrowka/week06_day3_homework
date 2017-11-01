@@ -11,6 +11,11 @@ import static org.junit.Assert.assertEquals;
  */
 
 public class HippoTest {
+    @Test
+    public void attack() throws Exception {
+
+    }
+
     FatHippo fat;
     PygmyHippo pygmy;
 
@@ -27,7 +32,11 @@ public class HippoTest {
         assertEquals("RRRRR!!", pygmy.roar());
     }
 
-
+    @Test
+    public void canAttack() {
+        assertEquals("I am causing damage", fat.attack());
+        assertEquals("I am causing damage", pygmy.attack());
+    }
 
 }
 

@@ -14,6 +14,11 @@ public abstract class Hippo {
         return "RRRRR!!";
     }
 
+    public String attack() {
+        return "I am causing damage";
+    }
+
+
 }
 
 
