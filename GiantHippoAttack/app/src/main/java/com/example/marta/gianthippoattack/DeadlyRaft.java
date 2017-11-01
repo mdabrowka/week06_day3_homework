@@ -6,9 +6,14 @@ package com.example.marta.gianthippoattack;
 
 public class DeadlyRaft extends Vehicle {
 
-    public String attackHippo() {
+    @Override
+    public String attackHippoDeadly() {
         return "Drowning with my weight";
     }
 
+    @Override
+    public String attackHippoNonDeadly() {
+        return "Throwing logs of wood";
+    }
 
 }

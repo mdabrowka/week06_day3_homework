@@ -9,7 +9,11 @@ public abstract class Vehicle {
         int healthValue;
 
 
-    public String attackHippo() {
+    public String attackHippoDeadly() {
+        return "";
+    }
+
+    public String attackHippoNonDeadly() {
         return "";
     }
 

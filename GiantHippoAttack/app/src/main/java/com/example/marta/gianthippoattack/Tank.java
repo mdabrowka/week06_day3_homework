@@ -6,8 +6,13 @@ package com.example.marta.gianthippoattack;
 
 public class Tank extends Vehicle {
 
-    public String attackHippo() {
+    @Override
+    public String attackHippoDeadly() {
         return "Grinding with my wheels";
     }
 
+    @Override
+    public String attackHippoNonDeadly() {
+        return "Making scary noises";
+    }
 }
