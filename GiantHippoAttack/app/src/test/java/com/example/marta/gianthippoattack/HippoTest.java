@@ -38,6 +38,13 @@ public class HippoTest {
         assertEquals("I am causing damage", pygmy.attack());
     }
 
+    @Test
+    public void canMove() {
+        assertEquals("Treading heavily", fat.move());
+        assertEquals("Trotting towards destruction", pygmy.move());
+    }
+
+
 }
 
 

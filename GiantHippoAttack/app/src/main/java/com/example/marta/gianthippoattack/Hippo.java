@@ -18,6 +18,9 @@ public abstract class Hippo {
         return "I am causing damage";
     }
 
+    public String move() {
+        return "";
+    }
 
 }
 

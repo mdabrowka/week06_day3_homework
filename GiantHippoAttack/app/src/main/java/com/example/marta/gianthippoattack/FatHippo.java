@@ -6,7 +6,9 @@ package com.example.marta.gianthippoattack;
 
 public class FatHippo extends Hippo {
 
-
+    public String move() {
+        return "Treading heavily";
+    }
 
 
 }

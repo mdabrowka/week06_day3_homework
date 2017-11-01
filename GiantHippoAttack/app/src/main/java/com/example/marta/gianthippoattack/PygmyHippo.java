@@ -5,4 +5,10 @@ package com.example.marta.gianthippoattack;
  */
 
 public class PygmyHippo extends Hippo {
+
+    public String move() {
+        return "Trotting towards destruction";
+    }
+
+
 }
