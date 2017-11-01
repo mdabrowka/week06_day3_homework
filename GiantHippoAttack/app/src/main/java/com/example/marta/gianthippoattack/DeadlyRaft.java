@@ -5,4 +5,10 @@ package com.example.marta.gianthippoattack;
  */
 
 public class DeadlyRaft extends Vehicle {
+
+    public String attackHippo() {
+        return "Drowning with my weight";
+    }
+
+
 }

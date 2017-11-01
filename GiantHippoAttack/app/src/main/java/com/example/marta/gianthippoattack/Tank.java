@@ -5,4 +5,9 @@ package com.example.marta.gianthippoattack;
  */
 
 public class Tank extends Vehicle {
+
+    public String attackHippo() {
+        return "Grinding with my wheels";
+    }
+
 }

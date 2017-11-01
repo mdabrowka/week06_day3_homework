@@ -8,4 +8,9 @@ public abstract class Vehicle {
      String type;
         int healthValue;
 
+
+    public String attackHippo() {
+        return "";
+    }
+
 }
