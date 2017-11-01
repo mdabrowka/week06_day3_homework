@@ -20,7 +20,11 @@ public class VehicleTest {
         raft = new DeadlyRaft();
     }
 
-
+    @Test
+    public void canAttackHippo() {
+        assertEquals("Grinding with my wheels", tank.attackHippo());
+        assertEquals("Drowning with my weight", raft.attackHippo());
+    }
 
 
 }
